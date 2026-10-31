@@ -54,3 +54,13 @@ The URL Inspection API provides selected information about Google's indexed vers
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
+## Aasaan Hindi (Hinglish) mein samjho
+
+Crawling ka matlab Googlebot page ko khol kar dekhne ki koshish karta hai. Indexing ka matlab Google page ko process karke apne search index mein rakh sakta hai. URL Inspection ek specific URL ki status details dekhne ka tool hai.
+
+**Example:** Example: Naya page publish karne ke baad Google ko use discover aur process karne mein time lag sakta hai. Request indexing sirf request hai, guarantee nahi.
+
+**Project:** Google Search Console — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
