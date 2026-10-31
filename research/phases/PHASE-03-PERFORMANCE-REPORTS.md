@@ -51,3 +51,13 @@ Search Analytics API supports performance queries but has aggregation behavior, 
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
+## Aasaan Hindi (Hinglish) mein samjho
+
+Performance report batati hai ki Google Search se log aapki website tak kaise pahunch rahe hain. Impressions matlab result kitni baar dikhaya gaya, clicks matlab kitni baar click hua, CTR clicks ka percentage hai, aur average position ek estimated average ranking metric hai.
+
+**Example:** Example: 1,000 impressions aur 50 clicks hon to CTR 5% hai. Yeh zaroori nahi ki har user ko result ek hi position par dikhe.
+
+**Project:** Google Search Console — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
