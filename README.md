@@ -7,7 +7,7 @@
 > These notes are original educational research and summaries. Google product names and linked documentation belong to their respective owners. This repository is not affiliated with or endorsed by Google. Refer to official Google documentation for the latest behavior.
 
 ## Purpose
-A beginner-friendly, structured reference for understanding Google Search Console (GSC), its reports, workflows, limits and practical troubleshooting. Documentation research and live property verification are tracked separately.
+Aasaan Hindi (Hinglish) mein beginner-friendly, structured notes. Har topic mein simple explanation, example, important limits aur official references diye jaate hain. Documentation research and live property verification are tracked separately.
 
 ## Research Index
 | Phase | Topic | Status / Document |
@@ -32,6 +32,13 @@ A beginner-friendly, structured reference for understanding Google Search Consol
 - `research/phases/` — numbered phase documents.
 - `research/REFERENCES.md` — official Google references grouped by topic.
 - `research/STATUS.md` — completion tracker and live-verification backlog.
+
+## Language and Notes Format
+1. Research ko aasaan Hindi (Hinglish) mein samjhaya jayega.
+2. Technical words ka simple meaning aur practical example diya jayega.
+3. Topics numbered sections aur tables mein organize honge.
+4. Benefits, limitations aur official links jahan relevant honge, include kiye jayenge.
+5. Documentation research aur kisi live website ka audit alag-alag track hoga.
 
 ## How to Use
 1. Start with the master research guide.
