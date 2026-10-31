@@ -1,61 +1,64 @@
-# Phase 10 — Core Web Vitals, Page Experience and HTTPS
+# Phase 10 — Website Speed, User Experience aur HTTPS
 
-**Project:** Google Search Console — Deep Research & Study Notes  
+**Project:** Google Search Console — Research Notes aur Study Guide  
 **Owner / Content Creator:** Sandeep Barupal  
 **Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
 
-## Core Web Vitals
-| Metric | What it measures | Good threshold |
+## Core Web Vitals kya hain?
+Core Web Vitals teen measures hain jo batate hain ki website ka main content kitni jaldi dikhta hai, user ke action par kitni jaldi response milta hai aur page ka layout kitna stable rehta hai.
+
+| Short name | Kya measure karta hai? | Achha result |
 |---|---|---|
-| LCP | Loading performance of main visible content | 2.5 seconds or less |
-| INP | Responsiveness to user interactions | 200 milliseconds or less |
-| CLS | Unexpected layout movement | 0.1 or less |
+| LCP | Main content dikhne ka time | 2.5 seconds ya kam |
+| INP | Click/tap jaise action ka response | 200 milliseconds ya kam |
+| CLS | Page par cheezon ka achanak hilna | 0.1 ya kam |
 
-Google evaluates these metrics using the 75th percentile of page visits. Consult current official guidance for exact thresholds and measurement details.
+Google in metrics ko real-user visits ke 75th percentile se evaluate karta hai. Exact measurement samajhne ke liye official guide check karein.
 
-## Report behavior
-Core Web Vitals reports separate mobile and desktop field data where available. Reports group URLs with similar patterns. Data may be unavailable for URLs/properties without sufficient real-user data; this does not automatically mean the site is slow or broken.
+## Report ka data
+Report mein mobile aur desktop ke real-user data alag dikh sakte hain aur milte-julte URLs ko group kiya ja sakta hai. Kisi URL ke liye data na milne ka matlab apne aap yeh nahi ki website slow ya broken hai.
 
-## Common optimization approaches
-### LCP
-- Optimize main images and critical resources.
-- Reduce slow server response.
-- Review render-blocking CSS and JavaScript.
-- Prioritize important above-the-fold content appropriately.
+## Speed sudharne ke aam tareeke
+### LCP — Main content jaldi dikhana
+1. Main images aur zaroori resources optimize karein.
+2. Server response slow ho to use fix karein.
+3. Page ko dikhne se rokne wale CSS aur JavaScript ko check karein.
+4. Screen ke pehle dikhne wale important content ko priority dein.
 
-### INP
-- Reduce long JavaScript tasks.
-- Optimize event handlers.
-- Reduce unnecessary component rerenders and expensive calculations.
-- Review third-party scripts and interaction work.
+### INP — Click/tap par jaldi response
+1. Bahut der chalne wale JavaScript tasks kam karein.
+2. Click handlers ko behtar banayein.
+3. Be-wajah components ko dobara render karna aur heavy calculations kam karein.
+4. Third-party scripts check karein.
 
-### CLS
-- Reserve image/video dimensions and space for ads/embeds.
-- Avoid inserting content above existing content unexpectedly.
-- Review font loading and dynamic UI.
-- Test different screen sizes.
+### CLS — Page ka layout stable rakhna
+1. Images, videos aur ads ke liye pehle se jagah reserve karein.
+2. Naya content achanak existing content ke upar na daalein.
+3. Fonts aur dynamic UI check karein.
+4. Alag screen sizes par test karein.
 
-These are possible remedies, not a diagnosis of any particular website.
+Yeh general suggestions hain; kisi specific website ki diagnosis nahi.
 
-## Field data vs lab data
-- **Field data** comes from real-user experiences and is used in Search Console's Core Web Vitals report where available.
-- **Lab data** comes from controlled tests such as Lighthouse and is useful for debugging.
-Results can differ because of device, network, page state and measurement conditions.
+## Real-user data aur lab test ka farq
+- **Field data:** Asli users ke device aur network par mile experience ka data.
+- **Lab data:** Lighthouse jaise tool se controlled test ka result.
 
-## HTTPS report
-The HTTPS report can show indexed HTTPS/HTTP URL information and detected HTTPS-related issues for eligible properties. Possible problems include invalid certificates, HTTP canonical references, HTTP sitemap URLs, redirect problems, crawl blocks or URLs not yet evaluated. Check current report documentation for the exact issue list.
+Dono ke results alag ho sakte hain kyunki device, network aur test ki conditions alag hoti hain.
 
-## HTTPS audit checklist
-1. Verify certificate validity and hostname coverage.
-2. Check HTTP-to-HTTPS redirects.
-3. Ensure canonical tags use the preferred HTTPS URL.
-4. Update sitemaps and internal links to preferred URLs.
-5. Review robots.txt and indexing directives.
-6. Test key pages and assets.
-7. Monitor Search Console after recrawling.
+## HTTPS kya hai?
+HTTPS browser aur website ke beech data ko secure/encrypt karne mein madad karta hai. HTTPS report eligible websites par HTTP/HTTPS URLs aur kuch related problems dikhati hai.
 
-## Page experience
-Page experience is broader than speed alone. Consider secure delivery, responsive layout, readable content, stable layout, useful navigation and non-intrusive presentation. A retired report/tool does not mean the underlying user-experience principle is irrelevant.
+## HTTPS check-list
+1. Certificate valid hai aur sahi domain cover karta hai.
+2. HTTP se HTTPS par redirects sahi hain.
+3. Canonical tags preferred HTTPS URL use karte hain.
+4. Sitemap aur internal links mein preferred URL hai.
+5. robots.txt aur indexing rules sahi hain.
+6. Important pages aur resources test karein.
+7. Google ke dobara crawl karne ke baad report check karein.
+
+## Example
+Agar page khulne ke baad button par click karne par response late aata hai, to interaction performance kharab ho sakti hai. HTTPS use karna zaroori hai, lekin sirf HTTPS ya achhe Core Web Vitals se high ranking ki guarantee nahi milti.
 
 ## Useful tools
 - [PageSpeed Insights](https://pagespeed.web.dev/)
@@ -63,24 +66,11 @@ Page experience is broader than speed alone. Consider secure delivery, responsiv
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 - [Core Web Vitals guide](https://web.dev/articles/vitals)
 
-## Ranking caveat
-Good Core Web Vitals support user experience but do not guarantee high search rankings. Content relevance and many other systems matter.
-
-## Official references
+## Official links
 - [Core Web Vitals report](https://support.google.com/webmasters/answer/9205520?hl=en)
 - [Core Web Vitals documentation](https://developers.google.com/search/docs/appearance/core-web-vitals)
-- [Page experience guidance](https://developers.google.com/search/docs/appearance/page-experience)
+- [Page experience guide](https://developers.google.com/search/docs/appearance/page-experience)
 - [HTTPS report](https://support.google.com/webmasters/answer/11396518?hl=en)
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
-
-## Aasaan Hindi (Hinglish) mein samjho
-
-Core Web Vitals page load hone, response dene aur layout stable rehne ke user experience ko measure karte hain. HTTPS browser aur website ke beech connection ko encrypt karta hai. In reports ka data field data, samples aur availability par depend kar sakta hai.
-
-**Example:** Example: Page khulne ke baad buttons der se respond karte hain to interaction performance kharab ho sakti hai. HTTPS enabled hona zaroori hai, lekin sirf HTTPS se high ranking ki guarantee nahi.
-
-**Project:** Google Search Console — Deep Research & Study Notes  
-**Owner / Content Creator:** Sandeep Barupal  
-**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
