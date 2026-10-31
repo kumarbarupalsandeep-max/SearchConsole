@@ -42,3 +42,13 @@ Annotations help explain changes in performance charts, such as a migration or c
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
+## Aasaan Hindi (Hinglish) mein samjho
+
+Overview ek summary screen hai. Yeh alag-alag reports ki important jankari ek jagah dikhati hai. Insights, messages aur annotations ki availability property aur Google ke current interface par depend kar sakti hai.
+
+**Example:** Example: Agar clicks kam ho rahe hain, Overview se signal mil sakta hai. Asal wajah samajhne ke liye Performance report khol kar date aur pages compare karo.
+
+**Project:** Google Search Console — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
