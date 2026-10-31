@@ -61,3 +61,13 @@ Data freshness, report availability, URL samples and permissions vary. A documen
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below. Google trademarks and documentation belong to Google.
+
+## Aasaan Hindi (Hinglish) mein samjho
+
+Google Search Console website owner ke liye Google Search ka report card hai. Isse pata chalta hai ki website Google par kaise dikh rahi hai aur Google ko page samajhne ya access karne mein koi dikkat to nahi. Yaad rakho: report theek hone ka matlab top ranking ya har page ka Google mein aana pakka nahi hai.
+
+**Example:** Example: Agar aapki website par 50 pages hain, to Search Console kuch pages ke clicks, impressions aur indexing ki jankari de sakta hai. Har report mein har page ya har search query dikhna zaroori nahi.
+
+**Project:** Google Search Console — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
