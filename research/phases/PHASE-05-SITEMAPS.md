@@ -45,3 +45,13 @@ Sitemap options include XML sitemaps, index files, and specialized image, video 
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
+## Aasaan Hindi (Hinglish) mein samjho
+
+Sitemap ek file hoti hai jo search engines ko website ke important URLs dhoondhne mein madad karti hai. Sitemap submit karna discovery mein help karta hai, lekin har URL ko index karwana pakka nahi karta.
+
+**Example:** Example: Online store ke sitemap mein product aur category URLs ho sakte hain. Sitemap mein sirf canonical, sahi aur index karne layak URLs rakhna behtar hota hai.
+
+**Project:** Google Search Console — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
