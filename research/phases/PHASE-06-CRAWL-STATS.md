@@ -43,3 +43,13 @@ Search Console crawl data and server logs can differ because of timing, scope, b
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
+## Aasaan Hindi (Hinglish) mein samjho
+
+Crawl Stats batata hai ki Googlebot website par kitni requests kar raha hai aur server un requests ka kaisa response de raha hai. robots.txt rules batata hai ki crawlers kin paths ko crawl kar sakte hain ya nahi.
+
+**Example:** Example: Agar server baar-baar 5xx error de, to Googlebot ko pages fetch karne mein problem ho sakti hai. Pehle hosting/server logs aur error ka root cause check karo.
+
+**Project:** Google Search Console — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
