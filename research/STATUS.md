@@ -19,6 +19,10 @@
 | 11 | Removals, SafeSearch, Change of Address and settings | Pending | Not performed |
 | 12+ | API, permissions, remaining navigation and final gap audit | Pending scope audit | Not performed |
 
+## Aasaan Hindi (Hinglish) update
+- 2026-10-31: Phases 1–10 mein beginner-friendly explanations aur examples add kiye gaye.
+- Aage se notes mein simple language, numbered lists/tables aur practical examples ko preference di jayegi.
+
 ## Remaining work
 1. Complete Phase 11 using current official documentation.
 2. Decide whether API, property verification, user permissions, data export and settings need dedicated phases.
@@ -35,7 +39,7 @@
 - Official links and feature availability are reviewed before final completion.
 
 ## Update log
-- 2026-10-31: Initialized documentation hub and consolidated Phases 1–10. Phase 11 and final completeness audit remain pending.
+- 2026-10-31: Initialized documentation hub and consolidated Phases 1–10. Added simple Hinglish explanations/examples to Phases 1–10. Phase 11 and final completeness audit remain pending.
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
