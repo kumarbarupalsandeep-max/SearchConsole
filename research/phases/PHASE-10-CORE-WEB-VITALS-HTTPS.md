@@ -74,3 +74,13 @@ Good Core Web Vitals support user experience but do not guarantee high search ra
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
+## Aasaan Hindi (Hinglish) mein samjho
+
+Core Web Vitals page load hone, response dene aur layout stable rehne ke user experience ko measure karte hain. HTTPS browser aur website ke beech connection ko encrypt karta hai. In reports ka data field data, samples aur availability par depend kar sakta hai.
+
+**Example:** Example: Page khulne ke baad buttons der se respond karte hain to interaction performance kharab ho sakti hai. HTTPS enabled hona zaroori hai, lekin sirf HTTPS se high ranking ki guarantee nahi.
+
+**Project:** Google Search Console — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
