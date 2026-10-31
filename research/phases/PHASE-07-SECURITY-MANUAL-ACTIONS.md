@@ -53,3 +53,13 @@ Concerns can include hacked pages, injected content, harmful downloads, deceptiv
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
+## Aasaan Hindi (Hinglish) mein samjho
+
+Manual Action ka matlab Google ki review team ne Search spam policies ke issue par action liya. Security Issue ka matlab site par hacking, harmful downloads ya doosra security risk detect hua ho sakta hai. Dono alag cheezein hain.
+
+**Example:** Example: Agar site hack ho gayi ho, to sirf warning chhupana kaafi nahi. Harmful content hatao, security fix karo aur report mein diye gaye official steps follow karo.
+
+**Project:** Google Search Console — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
