@@ -48,3 +48,13 @@ Do not assume the standard Search Console API exposes the full Links report. Use
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
+## Aasaan Hindi (Hinglish) mein samjho
+
+Links report website ko point karne wale external links aur website ke andar ke internal links ke kuch examples dikhati hai. Yeh poore internet ke har link ki complete list nahi hoti.
+
+**Example:** Example: Home page se product page ka link internal link hai. Kisi doosri website se aapke blog par aane wala link external link hai. Sirf report mein link dikhne ya na dikhne se final SEO decision mat lo.
+
+**Project:** Google Search Console — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
