@@ -1,71 +1,60 @@
-# Phase 09 — Enhancements, Rich Results and Structured Data
+# Phase 09 — Structured Data aur Rich Results
 
-**Project:** Google Search Console — Deep Research & Study Notes  
+**Project:** Google Search Console — Research Notes aur Study Guide  
 **Owner / Content Creator:** Sandeep Barupal  
 **Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
 
-## Key terms
-- **Structured data:** machine-readable markup describing page content.
-- **Rich result:** enhanced appearance Google may show for eligible content.
-- **Enhancement report:** Search Console report for supported structured-data types detected on a property.
+## Structured data kya hai?
+Structured data page ke content ko ek aise format mein batata hai jise search engines aasani se samajh saken. Isse Google ko page par product, article ya doosri supported cheezon ki details samajhne mein madad mil sakti hai.
 
-A report appears only when relevant supported markup/data is detected and report conditions are met. Valid markup does not guarantee Google will show a rich result.
+**Rich result** search result ka enhanced look hai, jaise supported content ke liye extra details. Sahi structured data hone se eligibility mil sakti hai, lekin Google rich result dikhane ki guarantee nahi deta.
 
-## Report concepts
-Reports can summarize valid items, invalid items, critical errors, non-critical warnings, example URLs and validation progress. Exact fields and labels vary by report type and may change.
+## Report mein kya dikh sakta hai?
+Supported feature aur data milne par report valid items, errors, warnings, example URLs aur fix validation ki progress dikha sakti hai. Exact details report ke type ke hisaab se badal sakti hain.
 
-## Common issues
-- Required property missing.
-- Invalid value or incorrect format.
-- JSON-LD syntax errors.
-- Markup conflicts with visible page content.
-- Misleading or stale information.
-- Image/page not accessible to Google.
-- Markup targets a feature not currently supported in Search.
+## Aam problems
+1. Zaroori field missing hai.
+2. Value ya format galat hai.
+3. JSON-LD code mein syntax error hai.
+4. Markup aur page par dikhne wali information match nahi karti.
+5. Information galat, purani ya misleading hai.
+6. Google image ya page tak pahunch nahi pa raha.
+7. Markup aise feature ke liye hai jo Google Search mein supported nahi.
 
-## Recommended workflow
-1. Identify the relevant rich-result type.
-2. Read its current Google documentation.
-3. Confirm required and recommended properties.
-4. Ensure markup accurately reflects visible content.
-5. Test with Rich Results Test.
-6. Use Schema Markup Validator for general Schema.org validation when useful.
-7. Review Search Console enhancement reports.
-8. Fix root causes across affected templates/pages.
-9. Use Validate Fix when offered.
-10. Monitor Search Appearance and actual results; eligibility does not guarantee display.
+## Sahi workflow
+1. Decide karein ki kaunsa rich-result type relevant hai.
+2. Google ki current documentation padhein.
+3. Required aur recommended fields check karein.
+4. Markup ko page par dikhne wale asli content se match karein.
+5. Rich Results Test se check karein.
+6. Zaroorat ho to Schema Markup Validator bhi use karein.
+7. Search Console ki enhancement report dekhein.
+8. Template ya page ke asal issue ko fix karein.
+9. Option available ho to Validate Fix use karein.
+10. Baad mein search appearance aur actual results check karein.
 
-## Testing tools
-- [Rich Results Test](https://search.google.com/test/rich-results)
-- [Schema Markup Validator](https://validator.schema.org/)
+## Testing tools ka farq
+- **Rich Results Test:** Google ke supported rich results ke liye eligibility check karta hai.
+- **Schema Markup Validator:** General Schema.org markup check karta hai.
 
-Rich Results Test focuses on Google-supported rich-result eligibility. Schema Markup Validator checks general Schema.org markup. They serve related but different purposes.
+Dono tools ka kaam related hai, lekin bilkul ek jaisa nahi.
 
-## URL Inspection vs enhancement report
-Enhancement reports help review issue patterns across detected items. URL Inspection helps investigate a specific URL's indexed state and, separately, its live test. Neither guarantees indexing or rich-result display.
+## Example
+Product page par price aur availability ka structured data ho sakta hai. Yeh details page par user ko dikhne wali asli information se match honi chahiye.
 
-## Common mistakes
-- Treating every warning as a critical error.
-- Assuming valid markup guarantees a rich result.
-- Marking up hidden, misleading or irrelevant content.
-- Assuming a missing report proves no markup exists.
-- Assuming successful validation guarantees rankings.
+## Aam galtiyan
+1. Har warning ko critical error samajhna.
+2. Sochna ki valid markup se rich result pakka dikhega.
+3. Chhupi hui ya misleading information ka markup banana.
+4. Report na dikhne ka matlab samajhna ki markup bilkul nahi hai.
+5. Validation pass hone ko ranking ki guarantee samajhna.
 
-## Official references
+## Official links
 - [Rich result reports](https://support.google.com/webmasters/answer/7552505?hl=en)
 - [Structured data gallery](https://developers.google.com/search/docs/appearance/structured-data/search-gallery)
 - [Structured data policies](https://developers.google.com/search/docs/appearance/structured-data/sd-policies)
-- [URL Inspection](https://support.google.com/webmasters/answer/9012289?hl=en)
+- [Rich Results Test](https://search.google.com/test/rich-results)
+- [Schema Markup Validator](https://validator.schema.org/)
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
-
-## Aasaan Hindi (Hinglish) mein samjho
-
-Structured data page ke content ko machine-readable format mein samjhane ka tareeka hai. Sahi markup se rich result ke liye eligibility mil sakti hai, lekin Google special search display dikhane ki guarantee nahi deta.
-
-**Example:** Example: Product page par price aur availability ka sahi structured data ho sakta hai. Data page ke asli visible content se match karna chahiye aur Google ki policies follow karni chahiye.
-
-**Project:** Google Search Console — Deep Research & Study Notes  
-**Owner / Content Creator:** Sandeep Barupal  
-**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
