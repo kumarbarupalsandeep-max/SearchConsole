@@ -1,52 +1,45 @@
-# Phase 04 — Indexing, Page Indexing and URL Inspection
+# Phase 04 — Indexing aur URL Inspection
 
-**Project:** Google Search Console — Deep Research & Study Notes  
+**Project:** Google Search Console — Research Notes aur Study Guide  
 **Owner / Content Creator:** Sandeep Barupal  
 **Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
 
-## Crawl, index and serve are different
-1. Crawl: Googlebot fetches a URL.
-2. Index: Google processes a page and may include it in its index.
-3. Serve: Google decides whether and how a page appears for a query.
-A successful crawl does not guarantee indexing; indexing does not guarantee ranking.
+## Crawling, Indexing aur Search Results ka farq
+1. **Crawling:** Googlebot URL khol kar page ko dekhne ki koshish karta hai.
+2. **Indexing:** Google page ko process karke apne search database mein rakh sakta hai.
+3. **Search mein dikhana:** Google tay karta hai ki page kisi search par dikhana hai ya nahi.
+
+Page crawl hone se indexing pakki nahi hoti, aur indexing se ranking pakki nahi hoti.
 
 ## Page Indexing report
-The report summarizes indexed and non-indexed pages and groups reasons Google detected. Possible categories include server errors, redirect errors, not found pages, robots.txt blocks, noindex directives, discovered/crawled but not indexed pages, duplicate/canonical situations and pages indexed without content. Exact labels may change.
+Yeh report indexed aur index na hue pages ka summary deti hai aur Google ko mili wajahen dikhati hai. Wajahen server error, redirect error, page na milna, robots.txt block, noindex rule, duplicate page, ya page milne ke baad index na hona ho sakti hain. Report ke exact labels badal sakte hain.
 
-Not every non-indexed URL is a problem: login pages, duplicates, redirects and intentionally excluded pages may be correct.
+Har non-indexed URL problem nahi hota. Login pages, duplicate pages aur jaan-boojhkar exclude kiye gaye pages theek bhi ho sakte hain.
 
-## URL Inspection
-URL Inspection investigates an individual URL. Depending on view and available data, it can show indexing state, last crawl, crawl permission, page fetch, indexing permission, user-declared and Google-selected canonical, sitemap/discovery information and enhancements.
+## URL Inspection kya hai?
+Is tool se ek khaas URL ki jaankari check kar sakte hain. Available details mein index status, last crawl, Google page khol sakta hai ya nahi, canonical URL, sitemap/discovery aur kuch enhancements shamil ho sakte hain.
 
-- **Indexed version:** information from Google's indexed data.
-- **Live test:** tests the current accessible page, but does not guarantee indexing or reproduce every indexing decision.
-- **Request indexing:** requests recrawling/indexing consideration; it is not a guarantee.
+- **Indexed version:** Google ke paas pehle se maujood page ki jaankari.
+- **Live test:** Abhi page ko check karta hai; indexing ki guarantee nahi.
+- **Request indexing:** Google se page dobara dekhne ki request; guarantee nahi.
 
-## Common reasons to investigate
-- Unexpected noindex directive.
-- Robots.txt blocks a page that should be crawled.
-- Server errors or timeouts.
-- Incorrect redirects.
-- Duplicate content or canonical mismatch.
-- Content is inaccessible or not useful enough for indexing.
-- Google has discovered a URL but has not crawled/indexed it yet.
+## Problem kaise check karein?
+1. URL Inspection mein URL daalein.
+2. Decide karein ki page ka index na hona jaan-boojhkar hai ya nahi.
+3. Server response, robots.txt, noindex, canonical, redirects, page content aur internal links check karein.
+4. Root cause ko theek karein.
+5. Live URL test karein.
+6. Zaroori fixed pages ke liye indexing request bhejein.
+7. Report mein validation option ho to use karein.
+8. Google ke dobara crawl karne ke baad status check karein.
 
-## Fix workflow
-1. Inspect the URL.
-2. Decide whether exclusion is intentional.
-3. Check HTTP response, robots.txt, meta robots/X-Robots-Tag, canonical, redirects, rendered content and internal links.
-4. Fix the root cause at template/site level.
-5. Test the live URL.
-6. Request indexing for important fixed URLs if appropriate.
-7. Use report validation when available.
-8. Monitor after Google recrawls.
+## Example
+Aapne naya page publish kiya. Google ko use dhoondhne aur process karne mein time lag sakta hai. Indexing request bhejna sirf request hai, turant search result mein aane ka wada nahi.
 
-Validation can take time and does not guarantee inclusion in search.
+## API ki baat
+URL Inspection API verified property ke ek URL ke indexed version ki kuch details deti hai. Yeh website UI ke har detail ya live test ka poora badal nahi hai.
 
-## API
-The URL Inspection API provides selected information about Google's indexed version for a URL in a verified property. It is not equivalent to every detail in the web UI or a live test.
-
-## Official references
+## Official links
 - [Page Indexing report](https://support.google.com/webmasters/answer/7440203?hl=en)
 - [URL Inspection](https://support.google.com/webmasters/answer/9012289?hl=en)
 - [Request indexing](https://support.google.com/webmasters/answer/12482179?hl=en)
@@ -54,13 +47,3 @@ The URL Inspection API provides selected information about Google's indexed vers
 
 ## Copyright
 © 2026 Sandeep Barupal. All rights reserved, except as stated below.
-
-## Aasaan Hindi (Hinglish) mein samjho
-
-Crawling ka matlab Googlebot page ko khol kar dekhne ki koshish karta hai. Indexing ka matlab Google page ko process karke apne search index mein rakh sakta hai. URL Inspection ek specific URL ki status details dekhne ka tool hai.
-
-**Example:** Example: Naya page publish karne ke baad Google ko use discover aur process karne mein time lag sakta hai. Request indexing sirf request hai, guarantee nahi.
-
-**Project:** Google Search Console — Deep Research & Study Notes  
-**Owner / Content Creator:** Sandeep Barupal  
-**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
