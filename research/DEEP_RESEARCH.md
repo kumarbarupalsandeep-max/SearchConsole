@@ -1,66 +1,58 @@
-# Google Search Console — Master Deep Research Guide
+# Google Search Console — Main Research Guide
 
-**Project:** Google Search Console — Deep Research & Study Notes  
+**Project:** Google Search Console — Research Notes aur Study Guide  
 **Owner / Content Creator:** Sandeep Barupal  
 **Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
 
-## Purpose
-Yeh guide Google Search Console ko aasaan Hindi (Hinglish) mein samjhati hai. Har topic ko simple meaning, example, steps aur limitations ke saath padhna hai. These are educational summaries, not a live audit of a specific website.
+## Is guide ka maksad
+Is guide mein Google Search Console ko aasaan Hindi (Hinglish) mein samjhaya gaya hai. Yeh seekhne ke notes hain; kisi khaas website ka live audit nahi.
 
-## Phase Index
-| Phase | Topic | Document |
+## Phase list
+| Phase | Topic | Notes |
 |---:|---|---|
-| 1 | Fundamentals | [Phase 01](phases/PHASE-01-FUNDAMENTALS.md) |
-| 2 | Overview, Insights and annotations | [Phase 02](phases/PHASE-02-OVERVIEW-DASHBOARD.md) |
+| 1 | Basic jaankari | [Phase 01](phases/PHASE-01-FUNDAMENTALS.md) |
+| 2 | Overview aur Insights | [Phase 02](phases/PHASE-02-OVERVIEW-DASHBOARD.md) |
 | 3 | Performance reports | [Phase 03](phases/PHASE-03-PERFORMANCE-REPORTS.md) |
-| 4 | Indexing and URL Inspection | [Phase 04](phases/PHASE-04-INDEXING-URL-INSPECTION.md) |
-| 5 | Sitemaps | [Phase 05](phases/PHASE-05-SITEMAPS.md) |
-| 6 | Crawl Stats | [Phase 06](phases/PHASE-06-CRAWL-STATS.md) |
-| 7 | Manual Actions and Security | [Phase 07](phases/PHASE-07-SECURITY-MANUAL-ACTIONS.md) |
-| 8 | Links report | [Phase 08](phases/PHASE-08-LINKS-REPORT.md) |
-| 9 | Enhancements and structured data | [Phase 09](phases/PHASE-09-STRUCTURED-DATA.md) |
-| 10 | Core Web Vitals and HTTPS | [Phase 10](phases/PHASE-10-CORE-WEB-VITALS-HTTPS.md) |
-| 11 | Removals, SafeSearch, Change of Address and settings | Pending |
-| — | [Official references](REFERENCES.md) | — |
-| — | [Status tracker](STATUS.md) | — |
+| 4 | Indexing aur URL Inspection | [Phase 04](phases/PHASE-04-INDEXING-URL-INSPECTION.md) |
+| 5 | Sitemap | [Phase 05](phases/PHASE-05-SITEMAPS.md) |
+| 6 | Crawling aur robots.txt | [Phase 06](phases/PHASE-06-CRAWL-STATS.md) |
+| 7 | Security aur Manual Actions | [Phase 07](phases/PHASE-07-SECURITY-MANUAL-ACTIONS.md) |
+| 8 | Website links | [Phase 08](phases/PHASE-08-LINKS-REPORT.md) |
+| 9 | Structured data | [Phase 09](phases/PHASE-09-STRUCTURED-DATA.md) |
+| 10 | Speed, user experience aur HTTPS | [Phase 10](phases/PHASE-10-CORE-WEB-VITALS-HTTPS.md) |
+| 11 | Removals aur settings | [Phase 11](phases/PHASE-11-RESEARCH-PLAN.md) — baaki |
+| — | [Official links ki list](REFERENCES.md) | |
+| — | [Kaam ki sthiti](STATUS.md) | |
 
-## Aasaan Hindi mein basic concepts
-- **Crawling:** Googlebot website ka page khol kar dekhne ki koshish karta hai.
-- **Indexing:** Google page ko process karke apne search index mein rakh sakta hai.
-- **Ranking/Serving:** Google decide karta hai ki kisi search par kaunse results dikhane hain.
-- Yeh teen alag steps hain. Crawl hona indexing ki guarantee nahi, aur indexing ranking ki guarantee nahi.
-- **Canonical URL:** Similar ya duplicate pages mein preferred URL.
-- **Sitemap:** URLs ki file jo search engines ko pages dhoondhne mein help karti hai.
+## Basic concepts aasaan shabdon mein
+- **Crawling:** Googlebot website ka page khol kar uski jaankari lene ki koshish karta hai.
+- **Indexing:** Google page ko process karke apne search database mein rakh sakta hai.
+- **Ranking / Search result:** Google tay karta hai ki kisi search par kaunse pages dikhaye jaayen.
+- Yeh teen alag steps hain. Page crawl ho jaaye to bhi indexing pakki nahi. Index ho jaaye to bhi achhi ranking pakki nahi.
+- **Canonical URL:** Milte-julte pages mein woh URL jise main ya preferred URL maana jaata hai.
+- **Sitemap:** Website ke URLs ki file, jo Google ko pages dhoondhne mein madad kar sakti hai.
 
-## Core concepts
-- Crawling: Googlebot requests a URL.
-- Indexing: Google processes a page and may include it in its index.
-- Serving/ranking: Google decides whether and how a page appears for a search.
-- These are different stages; crawling does not guarantee indexing, and indexing does not guarantee ranking.
-- A canonical URL is Google's preferred representative URL among duplicate or similar pages.
-- Search Console reports may include sampled URLs, grouped URLs, delayed data or privacy-filtered queries.
+## Website check karne ka aam tarika
+1. Sahi website property aur access check karein.
+2. Messages, security alerts aur Manual Actions dekhein.
+3. Performance report mein clicks aur impressions ka trend dekhein.
+4. Page Indexing aur important URLs check karein.
+5. Sitemap ki submission aur errors dekhein.
+6. Available ho to Crawl Stats check karein.
+7. Structured data, Core Web Vitals aur HTTPS reports dekhein.
+8. Internal links aur report mein dikhaye gaye external links dekhein.
+9. Asal problem fix karein, phir dobara test karein.
+10. Date, evidence, affected pages aur result ka record rakhein.
 
-## Recommended audit workflow
-1. Verify the correct property and access.
-2. Review messages, security issues and manual actions.
-3. Analyze Performance reports.
-4. Review Page Indexing and inspect important URLs.
-5. Check sitemap submissions and errors.
-6. Review Crawl Stats where available.
-7. Review structured-data, Core Web Vitals and HTTPS reports where available.
-8. Audit internal links and external link samples.
-9. Fix root causes, test changes and validate where offered.
-10. Record dates, evidence, affected templates and verification outcomes.
+## Zaroori limitations
+1. Data turant update ho, yeh zaroori nahi.
+2. Reports mein har URL ya query nahi dikh sakti.
+3. Har website property par har report available nahi hoti.
+4. URL submit karne ya issue validation se search mein dikhna pakka nahi hota.
+5. Report saaf hone par bhi har mumkin problem khatam hui hai, yeh prove nahi hota.
 
-## Limitations
-- Data is not always real-time.
-- Reports may show samples rather than every URL.
-- Not all reports appear for all properties.
-- Validation, URL submission and valid markup do not guarantee search visibility.
-- A clean report does not prove that every possible issue is absent.
-
-## Research vs live verification
-The phase documents consolidate product research and workflows. They do not prove any specific website is correctly configured. A live audit requires authorized property access or verifiable public evidence, dated screenshots/data and a record of checks performed.
+## Research aur live website check mein farq
+In files mein product ki jaankari aur aam workflows samjhaye gaye hain. Kisi website ki asli setting verify karne ke liye authorized access ya check ki ja sakne wali evidence, date aur check ka record chahiye.
 
 ## Copyright
-© 2026 Sandeep Barupal. All rights reserved, except as stated below. Google trademarks and linked documentation belong to their respective owners. This independent project is not affiliated with or endorsed by Google.
+© 2026 Sandeep Barupal. All rights reserved, except as stated below. Google ke trademarks aur official documents Google ke hain. Yeh independent learning project hai aur Google se affiliated ya endorsed nahi hai.
