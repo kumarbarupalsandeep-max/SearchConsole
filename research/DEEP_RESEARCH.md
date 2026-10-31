@@ -5,7 +5,7 @@
 **Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
 
 ## Purpose
-Beginner-friendly reference for Google Search Console (GSC), its reports, workflows, limits and troubleshooting. These are educational summaries, not a live audit of a specific website.
+Yeh guide Google Search Console ko aasaan Hindi (Hinglish) mein samjhati hai. Har topic ko simple meaning, example, steps aur limitations ke saath padhna hai. These are educational summaries, not a live audit of a specific website.
 
 ## Phase Index
 | Phase | Topic | Document |
@@ -23,6 +23,14 @@ Beginner-friendly reference for Google Search Console (GSC), its reports, workfl
 | 11 | Removals, SafeSearch, Change of Address and settings | Pending |
 | — | [Official references](REFERENCES.md) | — |
 | — | [Status tracker](STATUS.md) | — |
+
+## Aasaan Hindi mein basic concepts
+- **Crawling:** Googlebot website ka page khol kar dekhne ki koshish karta hai.
+- **Indexing:** Google page ko process karke apne search index mein rakh sakta hai.
+- **Ranking/Serving:** Google decide karta hai ki kisi search par kaunse results dikhane hain.
+- Yeh teen alag steps hain. Crawl hona indexing ki guarantee nahi, aur indexing ranking ki guarantee nahi.
+- **Canonical URL:** Similar ya duplicate pages mein preferred URL.
+- **Sitemap:** URLs ki file jo search engines ko pages dhoondhne mein help karti hai.
 
 ## Core concepts
 - Crawling: Googlebot requests a URL.
