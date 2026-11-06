@@ -106,3 +106,48 @@ Search Console ke report groups ko learn karke apne SEO analytics product mein d
 - Indexing request aur actual indexing ko separate statuses mein dikhayein.
 - SEO recommendations ko guaranteed ranking promises ke roop mein present na karein.
 
+
+
+## Competitor product research — Google Search Console
+
+### Official references
+- Product: https://search.google.com/search-console/about
+- Help Center: https://support.google.com/webmasters/
+- Performance report: https://support.google.com/webmasters/answer/7576553
+- URL Inspection: https://support.google.com/webmasters/answer/9012289
+
+### Purpose and product model
+Google Search Console website owners ko Google Search mein site ki performance aur technical search visibility samajhne mein help karta hai. Yeh Google Analytics ka replacement nahi hai: Search Console Google Search impressions, clicks, indexing aur crawling signals par focus karta hai.
+
+### Main pages / reports
+1. Overview and messages
+2. Performance — Search results
+3. Discover / Google News (eligible properties)
+4. URL Inspection
+5. Page indexing
+6. Sitemaps
+7. Crawl Stats (eligible properties)
+8. Core Web Vitals
+9. HTTPS
+10. Supported enhancements / structured data
+11. Links
+12. Manual Actions
+13. Security Issues
+14. Removals
+15. Settings, users and property management
+
+### Core workflow
+Property verify karein → overview/messages dekhein → performance trend analyse karein → important URL inspect karein → indexing/crawl issue identify karein → sitemap, robots, canonical ya page issue fix karein → zaroorat par validation request karein → result monitor karein. Indexing request indexing ki guarantee nahi hoti.
+
+### Important concepts and limitations
+- Crawling: Googlebot page fetch karne ki koshish karta hai.
+- Indexing: Google page ko process karke index mein include kar sakta hai.
+- Ranking: Search query ke liye results ka order; Search Console ranking control nahi karta.
+- Clicks, impressions, CTR aur average position alag metrics hain.
+- Data delayed, sampled ya limited ho sakta hai; har URL/query report mein dikhna guaranteed nahi.
+
+### Original product ideas
+Search analytics product mein data-source, last-sync time, affected URL, issue explanation, recommended next step aur change history dikhayein. Authorized Google Search Console API integration mein OAuth permissions, API quotas aur source timestamps clearly show karein.
+
+### Copyright and accuracy
+Google Search Console ka logo, branding, exact UI ya proprietary text copy na karein. Google trademarks aur official documentation Google ke hain. Yeh independent research hai; affiliation/endorsement ka claim nahi hai. SEO recommendation ko guaranteed ranking promise ke roop mein present na karein.
